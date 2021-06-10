@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Main {
+    background-color: #ecb5bb;
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 50px;
+}
+
+.title {
+   padding-top: 50px;
+}
+
+.bestco {
+    font-size: 12px;
+}
+
+.limited {
+    font-size: 35px;
+}
+
+.offer {
+    font-size: 35px;
+}
+
+.shopnow {
+    background-color: #ee7606;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: white;
+}
+

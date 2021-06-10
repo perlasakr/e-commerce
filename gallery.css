@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.galllerytitle {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gallerysubtitle {
+    text-align: center;
+}
+
+.gallerybox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0rem;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.gallery1 {
+    margin-left: 80px;
+}

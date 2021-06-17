@@ -7,8 +7,7 @@
     height: 200px;
     width: 300px;
     background-color: #f5f5f5;
-    margin-left: 500px;
-    margin-top: 200px;
+    margin-bottom: 25px;
 }
 
 .light {
@@ -24,16 +23,13 @@
     background-color: #ee7606;
     border: none;
     margin-top: 30px;
-    
-
 }
 
 .second {
     height: 200px;
     width: 300px;
     background-color: #f5f5f5;
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .pic1 {
@@ -52,8 +48,6 @@
     height: 425px;
     width: 400px;
     background-color: #f5f5f5;
-    margin-left: 820px;
-    margin-top: -420px;
 }
 
 .pic3 {
@@ -73,5 +67,15 @@
 }
 
 .Womenclothes {
-    padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.womenclothes-box1 {
+    margin: 20px;
+}
+
+.womenclothes-box2 {
+    margin: 20px;
 }

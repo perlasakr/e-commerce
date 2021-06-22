@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 
 .Main {
     background-color: #ecb5bb;
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     padding-top: 56px;
 }
 

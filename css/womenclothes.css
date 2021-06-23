@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   margin: 100px;
+  flex-wrap: wrap;
 }
 
 .womenclothes-box1 {

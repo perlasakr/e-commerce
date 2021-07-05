@@ -4,14 +4,14 @@
 }
 
 
-.Main {
-    background-color: #ecb5bb;
+.Main1 {
+    background-image: linear-gradient(to right, #ecb5bb,#f1aab2);
     display: flex;
     justify-content: space-evenly ;
     padding-top: 56px;
 }
 
-.title {
+.title1 {
    padding-top: 50px;
 }
 
@@ -35,3 +35,31 @@
     color: white;
 }
 
+.girl-shopping {
+    object-fit: contain;
+    height: 400px;
+}
+
+.title2 {
+    margin-left: 270px;
+    padding-top: 50px;
+}
+
+.title3 {
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+.Main2 {
+    background-image: linear-gradient(to right, #f1aab2,#eb96a0);
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 56px;
+}
+
+.Main3 {
+    background-image: linear-gradient(to right, #eb96a0,#ec8591);
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 56px;
+}

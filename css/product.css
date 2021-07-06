@@ -1,8 +1,6 @@
 .producttitle{
-    
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 100px;
 }
 
 .productsubtitle{
@@ -10,17 +8,17 @@
 }
 
 .productsquare {
-    width: 300px;
-    height: 300px;
+    margin: 0 15px 30px 15px;
 }
 
 .sale {
     width: 80px;
-    height: 30px;
+    height: 40px;
     background-color: #110101;
     color: white;
-    padding-top: 10px;
-    padding-left: 10px;
+    align-self: flex-start;
+    text-align: center;
+    line-height: 40px;
 }
 
 .productitem {
@@ -28,22 +26,31 @@
 }
 
 .parentbox {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 16px;
     padding-top: 30px;
 }
 
 .product-header {
-    position: relative;
+    display: flex;
     background-color: #f5f5f5;
     text-align: center;
     height: 300px;
     width: 300px;
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 10px;
 }
 
 .description-image {

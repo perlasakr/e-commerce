@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-.Main {
-    background-color: #ecb5bb;
+
+.Main1 {
+    background-image: linear-gradient(to right, #ec8591,#f1aab2);
     display: flex;
     justify-content: space-evenly;
     padding-top: 56px;
 }
 
-.title {
+.title1 {
    padding-top: 50px;
 }
 
@@ -35,3 +36,52 @@
     color: white;
 }
 
+.girl-shopping {
+    object-fit: contain;
+    height: 400px;
+}
+
+.title2 {
+    margin-left: 270px;
+    padding-top: 50px;
+}
+
+.title3 {
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+.Main2 {
+    background-image: linear-gradient(to right, #f1aab2,#eb96a0);
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 56px;
+}
+
+.Main3 {
+    background-image: linear-gradient(to right, #eb96a0,#ec8591);
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 56px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+
+.owl-next {
+   position: absolute;
+   right: 10px;
+   top: 200px;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 30px;
+}
+
+.main {
+    position: relative;
+}

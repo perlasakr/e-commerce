@@ -1,8 +1,3 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
 .blogstitle {
     text-align: center;
     padding-top: 100px;
@@ -22,15 +17,14 @@
 }
 
 .blogsbox {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
-    max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6;
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding: 0 16px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .blogs-footer {

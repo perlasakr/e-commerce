@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 .Main1 {
     background-image: linear-gradient(to right, #ec8591,#f1aab2);
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     padding-top: 56px;
 }
 

@@ -5,7 +5,7 @@
 
 
 .Main1 {
-    background-image: linear-gradient(to right, #ecb5bb,#f1aab2);
+    background-image: linear-gradient(to right, #ec8591,#f1aab2);
     display: flex;
     justify-content: space-evenly ;
     padding-top: 56px;
@@ -62,4 +62,25 @@
     display: flex;
     justify-content: space-evenly ;
     padding-top: 56px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+
+.owl-next {
+   position: absolute;
+   right: 10px;
+   top: 200px;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 30px;
+}
+
+.main {
+    position: relative;
 }

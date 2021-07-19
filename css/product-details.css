@@ -57,7 +57,7 @@
     font-size: 60px;
 }
 
-.footer {
+.article {
     padding-left: 50px;
 }
 
@@ -71,16 +71,17 @@
 }
 
 .box-size {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
     border-radius: 5%;
     margin-top: 20px;
+    margin-left: -10px;
 }
 
 .mini-box {
     width: 40px;
     height: 40px;
     background-color: rgb(243, 240, 240);
+    margin: 10px;
 }
 
 .letter {
@@ -90,7 +91,7 @@
 
 .button {
     background-color: black;
-    width: 300px;
+    width: 350px;
     height: 40px;
     margin-top: 30px;
     color: white;
@@ -129,20 +130,34 @@
     margin-left: -120px;
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 768px) {
   #section-box {
     display: flex;
     flex-wrap: wrap;
   }
-  #main {
+  .main {
     order: 1;
+    width: 100%;
   }
-  #aside{
+  .aside{
     order: 2;
+    display: flex;
+    width: 100%;
+    justify-content: space-content;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
   }
-  #footer {
+  .article {
     order: 3;
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 70px;
   }
+.aside > div {
+     margin-right: 20px;
+}
+
 }
 
 .span-box {

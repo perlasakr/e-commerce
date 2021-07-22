@@ -72,9 +72,10 @@
 
 .box-size {
     display: inline-flex;
-    border-radius: 5%;
+    border-radius: 5px;
     margin-top: 20px;
     margin-left: -10px;
+    cursor: pointer;
 }
 
 .mini-box {
@@ -95,8 +96,9 @@
     height: 40px;
     margin-top: 30px;
     color: white;
-    border-radius: 5%;
+    border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .free-shipping {
@@ -131,33 +133,31 @@
 }
 
 @media (max-width: 768px) {
-  #section-box {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .main {
-    order: 1;
-    width: 100%;
-  }
-  .aside{
-    order: 2;
-    display: flex;
-    width: 100%;
-    justify-content: space-content;
-    margin-top: 70px;
-    margin-bottom: 50px;
-   
-  }
-  .article {
-    order: 3;
-    width: 80%;
-    margin: 0 auto;
-    margin-right: 70px;
-  }
-.aside > div {
-     margin-right: 20px;
-}
-
+    #section-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main {
+        order: 1;
+        width: 100%;
+    }
+    .aside{
+        order: 2;
+        display: flex;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    
+    }
+    .article {
+        order: 3;
+        width: 80%;
+        margin: 0 auto;
+        margin-right: 70px;
+    }
+    .aside > div {
+        margin-right: 20px;
+    }
 }
 
 .span-box {
